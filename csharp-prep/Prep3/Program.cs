@@ -7,16 +7,18 @@ class Program
         Console.WriteLine("Hello Prep3 World! And Number Guessing Game!!!.");
         int magicNumber;
         int userGuess;
-        Random randomGenerator = new Random();
-        magicNumber = randomGenerator.Next(1, 100);
+
         int guessCount = 0;
         string keepPlaying = "yes";
 
         while (keepPlaying == "yes")
 
         {
+            Random randomGenerator = new Random();
+            magicNumber = randomGenerator.Next(1, 100);
             do
             {
+
                 Console.Write("What is your guess? ");
                 userGuess = int.Parse(Console.ReadLine());
                 guessCount = guessCount + 1;
