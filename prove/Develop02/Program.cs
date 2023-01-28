@@ -85,7 +85,7 @@ class Program
 
 
 
-    static void DisplayJournal()  //Method to display the journal
+    static void DisplayJournal()  //Display the journal
                                   // If the user selects "2", it will call this method
     {
         if (journal.Count == 0)
@@ -104,7 +104,7 @@ class Program
         }
     }
 
-    static void SaveJournal() //Method to save a journal
+    static void SaveJournal() //save a journal to a file
     {
         Console.WriteLine("Enter a filename:");
         string filename = Console.ReadLine();
@@ -120,7 +120,7 @@ class Program
         }
     }
 
-    static void LoadJournal() //Method to load a journal
+    static void LoadJournal() //load a journal
     {
         Console.WriteLine("Enter a filename:"); //Request filename is the option is selected
         string filename = Console.ReadLine();
