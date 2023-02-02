@@ -36,9 +36,15 @@ class Program
                 case 4:
                     LoadJournal();
                     break;
+                case > 5:
+                    Console.WriteLine("Error! Selected number is not an option.");
+                    break;
                 case 5:
+                    Quit();
                     return;
             }
+
+
         }
     }
     class Entry  //Entry class contains properties of prompt, response and date
@@ -138,4 +144,8 @@ class Program
         }
     }
 
+    static void Quit() //Display Goodbye message 
+    {
+        Console.WriteLine("Great job! Goodbye.");
+    }
 }
