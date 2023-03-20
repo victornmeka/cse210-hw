@@ -1,0 +1,4 @@
+0
+Simple Goal|gi|gi gi gi|10|False
+Eternal Goal|et|et et et|20
+Checklist Goal|pi|pi pi pi|50|0|3|False
